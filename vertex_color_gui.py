@@ -408,9 +408,9 @@ class VertexColorGUI:
         link_frame.pack(pady=10)
         
         ttk.Button(link_frame, text="查看源代码", 
-                  command=lambda: self.open_url("https://github.com")).pack(side=tk.LEFT, padx=5)
+                  command=lambda: self.open_url("https://github.com/DYYYYYYYF/TextureGenerateUtil")).pack(side=tk.LEFT, padx=5)
         ttk.Button(link_frame, text="报告问题", 
-                  command=lambda: self.open_url("https://github.com/issues")).pack(side=tk.LEFT, padx=5)
+                  command=lambda: self.open_url("https://github.com/DYYYYYYYF/TextureGenerateUtil/issues")).pack(side=tk.LEFT, padx=5)
         
     def browse_input_file(self):
         """浏览输入文件"""
